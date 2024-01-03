@@ -8,7 +8,7 @@ body {
 }
 
 form{
-    color: dodgerblue;
+    color: #706993;
     font-size: 22px;
 }
 
@@ -18,21 +18,21 @@ input[type=text]{
 
 #addNeed{
     background-color: bisque;
-    color: dodgerblue;
+    color: #706993;
 }
 
 #addHave{
     background-color: bisque;
-    color: dodgerblue;
+    color: #706993;
 }
 
 h1{
-    color: darkgoldenrod;
+    color: #70a0af;
     font-size: 50px ;
 }
 
 h2{
-    color: darkgoldenrod;
+    color: #70a0af;
     font-size: 42px;
     letter-spacing: -2px;
     text-align: left;
@@ -54,13 +54,13 @@ h2{
     height: auto;
     padding: 10px;
     text-transform: capitalize;
-    color: darkblue;
+    color: black;
 }
 
 list a {
     float: right;
     text-decoration: none;
-    color: red;
+    color: #ff3b3b;
 }
 
 body{
