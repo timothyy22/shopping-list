@@ -16,13 +16,13 @@ $(function() {
             item.find('input').prop('checked', true);
         }
 
-        list.append(item);  // Append the new item to the appropriate list
+        list.append(item);
     };
 
     $('#addHave, #addNeed').click(callback);
 
     $('ul').on('click', 'li a', function (event) {
-        $(event.target).closest('li').remove();  // Use closest() to find the closest ancestor li
+        $(event.target).closest('li').remove();
     });
 
     $('ul').on('click', 'input[type=checkbox]', function (event) {
